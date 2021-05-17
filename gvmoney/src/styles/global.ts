@@ -1,6 +1,17 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+    /* :root {
+        --background: #0D1007;
+        --red: #E33049;
+        --blue: #5C32E2;
+        --green: #38D0A7;
+        --blue-light: #6933ff;
+        --text-title: #23302D;
+        --text-body: #969cb3;
+        --shape: #ffffff;
+    } */
+
     :root {
         --background: #f0f2f5;
         --red: #e52e4d;
@@ -9,7 +20,6 @@ export const GlobalStyle = createGlobalStyle`
         --blue-light: #6933ff;
         --text-title: #363f5f;
         --text-body: #969cb3;
-        --background: #f0f2f5;
         --shape: #ffffff;
     }
 
